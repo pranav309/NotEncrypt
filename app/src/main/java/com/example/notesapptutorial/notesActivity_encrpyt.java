@@ -254,7 +254,8 @@ public class notesActivity_encrpyt extends AppCompatActivity {
     private int getRandomColor()
     {
         List<Integer> colorcode=new ArrayList<>();
-        colorcode.add(R.color.gray);
+        //This will add color to the applications UI
+        colorcode.add(R.color.gray);                           
         colorcode.add(R.color.pink);
         colorcode.add(R.color.lightgreen);
         colorcode.add(R.color.skyblue);
